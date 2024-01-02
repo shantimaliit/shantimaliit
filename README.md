@@ -1,9 +1,10 @@
 # 2D JavaGame
 
-This 2D game is written in java. The goal of the game is to find a treasure that has been kept the middle of the forest The game implements Keyboard control or Key Handler to move the character using the keys( W, A, S, and D).
+This 2D game is written in java. The goal of the game is to find a treasure that has been hidden in the middle of the forest. The game implements Keyboard control or Key Handler to move the character using the keys( W, A, S, and D).
 The Key W is direction to the up, the Key A is the direction to the left, the Key S is the direction to the down, and the  Key D is the direction to the right.
 
 Steps of the game:
+
 *The character is standing at the center of the screen.
 
 *Move the player using the Key W,A,S, and D to roam around the game.
