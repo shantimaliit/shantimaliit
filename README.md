@@ -5,8 +5,13 @@ The Key W is direction to the up, the Key A is the direction to the left, the Ke
 
 Steps of the game:
 *The character is standing at the center of the screen.
+
 *Move the player using the Key W,A,S, and D to roam around the game.
+
 *Find the three keys that is placed around the forest.
+
 *Find the boots, and if you found boots then pick up to increased the speed of the character.
+
 *If you found the three keys, you can open or unlock the three doors that is placed around the screen. But if you don't have any key, you can't open or unlock the three doors.
+
 *And the last is you found the treasure.
