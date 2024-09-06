@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Image Animation</title>
+    <link rel="stylesheet" href="animate.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button onclick="toggleAll()">Show/Hide All</button>
+            <button onclick="toggleImage('image1')">Image 1</button>
+            <button onclick="toggleImage('image2')">Image 2</button>
+            <button onclick="toggleImage('image3')">Image 3</button>
+        </div>
+
+        <div class="image-container">
+            <img id="image1" src="tulip1.jpg" alt="Image 1">
+            <img id="image2" src="tulip2.jpg" alt="Image 2">
+            <img id="image3" src="tulip3.jpg" alt="Image 3">
+        </div>
+    </div>
+
+    <script src="animate.js"></script>
+</body>
+</html>

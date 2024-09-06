@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Buttons arranged vertically */
+    align-items: flex-start; /* Align buttons to the start */
+    margin-right: 20px; /* Space between buttons and images */
+}
+
+.buttons button {
+    margin-bottom: 20px; /* Space between buttons */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 50px; /* Spacing between images */
+}
+
+.image-container img {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+#image1:hover {
+    transform: rotate(180deg);
+}
+
+#image2:hover {
+    transform: scale(1.5);
+}
+
+#image3:hover {
+    transform: rotate(-180deg);
+}
